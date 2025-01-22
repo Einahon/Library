@@ -9,8 +9,8 @@ public class ConnectionDao {
 
     public static Connection getConnection() throws ClassNotFoundException {
         final String  DBURL  = "jdbc:mysql://localhost:3306/library";
-        final String DBUSERNAME = "root";
-        final String  DBPASSWORD = "Zion2024";
+        final String DBUSERNAME = "";
+        final String  DBPASSWORD = "";
         try {
             con = DriverManager.getConnection(DBURL, DBUSERNAME, DBPASSWORD);
             System.out.println("Connected Database Successfully");
